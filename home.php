@@ -43,7 +43,7 @@ while ($row = mysqli_fetch_assoc($result)) {
         <a href="#" class="logo"></i><span>KomikIndo</span></a>
         <ul class="navbar">
             <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="#aboutme">About Us</a></li>
             <li><a href="#product">Comic</i></a></li>
         </ul>
 
