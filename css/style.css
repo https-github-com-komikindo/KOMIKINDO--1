@@ -463,7 +463,7 @@ margin: 0 280px;
 	height:210px;
 	width: 250px;
 	margin:50px auto;
-	border-radius: 20px;
+	border-radius: 10px;
   }
   .content{
 	background-color: #12192c;
@@ -507,8 +507,9 @@ margin: 0 280px;
 	padding: 5px;
 	margin: 5px;
   }
-  .icons li i{
-	font-size: 26px;
+  .icons li a i {
+	color: #2a4d97;
+	font-size: 30px;
 	opacity: 0.8;
   }
   .icons li i:hover{
@@ -640,5 +641,19 @@ margin: 0 280px;
 	color: aliceblue;
 	text-decoration: none;
   }
+
+  .back a {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+  }
+
+  .back a i{
+	background: #fff;
+	padding: 10px 15px;
+	color: #16151d;
+	border-radius: 5px;
+  }
+
 
   
