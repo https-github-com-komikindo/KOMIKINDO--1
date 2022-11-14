@@ -37,7 +37,7 @@ while ($row = mysqli_fetch_assoc($result)) {
         <a href="#" class="logo"></i><span>KomikIndo</span></a>
         <ul class="navbar">
             <li><a href="#" class="active">Home</a></li>
-            <li><a href="#aboutme">About Us</a></li>
+            <li><a href="#">About Us</a></li>
             <li><a href="#product">Comic</a></li>
             <li><a href="login.php" class="dropbtn">Login</a></li>
             <li><a href="registrasi.php">Register</a></li>
@@ -90,10 +90,6 @@ while ($row = mysqli_fetch_assoc($result)) {
             <section id="aboutme">
                 <div class="image">
                     <img src="assets/fotokami2.jpg" id="geeks" class="newspaper">
-                    <div class="btn">
-                        <button onclick="zoomIn()">Zoom-In</button>
-                        <button onclick="zoomOut()">Zoom-Out</button>
-                    </div>
                 </div>
                 <div class="content">
                     <h2>tentang saya</h2>
