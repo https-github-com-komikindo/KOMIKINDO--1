@@ -4,7 +4,7 @@ require 'koneksi.php';
 
 if (!isset($_SESSION['username'])) {
     header('Location: login.php');
-    exit;
+    exit;  
 }
 
 if (isset($_POST['cari'])) {
@@ -52,7 +52,7 @@ while ($row = mysqli_fetch_assoc($result)) {
         <a href="#" class="logo"></i><span>KomikIndo</span></a>
         <ul class="navbar">
             <li><a href="home.php" class="active">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="#aboutme">About Us</a></li>
             <li><a href="#product">Comic</i></a></li>
         </ul>
 
