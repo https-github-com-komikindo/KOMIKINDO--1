@@ -48,11 +48,15 @@ if (isset($_POST['login'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Login Kuy</title>
 </head>
 
 <body>
     <div class="bg_lgn">
+        <div class="back"><a href="index.php"><i class="fa-solid fa-house"></i></a></div>
         <div class="kotak_login">
             <p class="tulisan_login">Login</p><br>
             <?php if (isset($error)) : ?>
@@ -62,10 +66,10 @@ if (isset($_POST['login'])) {
             <?php endif; ?>
             <form action="" method="post">
                 <label>Username</label>
-                <input type="text" id="username" name="username" class="form_login" required />
+                <input type="text" id="username" name="username" placeholder="said" class="form_login" required />
 
                 <label>Password</label>
-                <input type="password" id="password" name="password" class="form_login" required />
+                <input type="password" id="password" name="password" placeholder="123" class="form_login" required />
 
                 <input type="submit" class="tombol_login" name="login" placeholder="Log In" />
 

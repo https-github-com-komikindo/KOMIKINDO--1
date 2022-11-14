@@ -50,28 +50,30 @@ if (isset($_POST['register'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Registrasi</title>
 </head>
 
 <body>
     <div class="bg_lgn">
+        <div class="back"><a href="index.php"><i class="fa-solid fa-house"></i></a></div>
         <div class="kotak_login">
             <p class="tulisan_login">Sign Up</p><br>
 
             <form action="" method="post">
                 <label>Username</label>
-                <input type="text" id="username" name="username" placeholder="Username" class="form_login" required />
+                <input type="text" id="username" name="username" placeholder="said" class="form_login" required />
 
                 <label>Email</label>
-                <input type="email" id="email" name="email" placeholder="Email" class="form_login" required />
+                <input type="email" id="email" name="email" placeholder="said@gmail.com" class="form_login" required />
 
                 <label>Password</label>
-                <input type="password" id="password" name="password" placeholder="Password" class="form_login"
-                    required />
+                <input type="password" id="password" name="password" placeholder="123" class="form_login" required />
 
                 <label>Confirm Password</label>
-                <input type="password" id="cpassword" name="cpassword" placeholder="Confirm Password" class="form_login"
-                    required />
+                <input type="password" id="cpassword" name="cpassword" placeholder="123" class="form_login" required />
 
                 <input type="submit" class="tombol_login" name="register" placeholder="Registrasi" /><br><br>
                 <center>
